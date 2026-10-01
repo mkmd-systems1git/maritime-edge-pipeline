@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  maritime-edge-system:
+    build: .
+    container_name: absolute_edge_system
+    restart: unless-stopped
